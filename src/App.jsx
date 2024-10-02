@@ -16,7 +16,7 @@ function App() {
   }, []);
 
   return (
-    <div className="flex flex-wrap justify-center gap-8 px-4 bg-green-200">
+    <div className="flex flex-wrap justify-center gap-8 px-4 bg-[#222d3b]">
     {info.map((product) => (
       <div className="flex flex-col items-center mb-14 lg:p-8 lg:w-1/4 w-1/2 bg-white shadow-lg rounded-lg" key={product.id}>
         <img src={product.image} alt={product.title} className="w-40 h-40 object-contain mb-4" />
